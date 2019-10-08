@@ -39,7 +39,7 @@
 		map = require('lodash/map'),
 		helpers = require('./lib/helpers'),
 		proxies = require('./lib/proxies'),
-		cookie = require('browser-cookie-lite'),
+		cookie = require('./lib/browser-cookie-lite'),
 		detectors = require('./lib/detectors'),
 		sha1 = require('sha1'),
 		links = require('./links'),

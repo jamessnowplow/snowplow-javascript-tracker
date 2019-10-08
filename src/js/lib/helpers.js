@@ -38,7 +38,7 @@
 		isUndefined = require('lodash/isUndefined'),
 		isObject = require('lodash/isObject'),
 		map = require('lodash/map'),
-		cookie = require('browser-cookie-lite'),
+		cookie = require('./browser-cookie-lite'),
 
 		object = typeof exports !== 'undefined' ? exports : this; // For eventual node.js environment support
 

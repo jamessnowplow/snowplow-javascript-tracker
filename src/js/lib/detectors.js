@@ -39,7 +39,7 @@
 		isUndefined = require('lodash/isUndefined'),
 		murmurhash3_32_gc = require('murmurhash').v3,
 		tz = require('jstimezonedetect').jstz.determine(),
-		cookie = require('browser-cookie-lite'),
+		cookie = require('./browser-cookie-lite'),
 
 		object = typeof exports !== 'undefined' ? exports : this, // For eventual node.js environment support
 		
